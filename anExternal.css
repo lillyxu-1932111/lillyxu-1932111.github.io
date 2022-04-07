@@ -1,0 +1,41 @@
+h1, #centered {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h2 {
+    font-family: Copperplate;
+    text-decoration: underline;
+}
+
+body {
+    text-align: center;
+}
+
+#centered {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+#bordered {
+    display: inline-block;
+    border-style: dotted;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+#floater {
+    inline-size: 320px;
+    overflow-wrap: break-word;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#boba {
+    float: left;
+}
+
+#center_float {
+    display: inline-block;
+}
